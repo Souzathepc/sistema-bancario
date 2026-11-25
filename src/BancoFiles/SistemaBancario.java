@@ -36,11 +36,11 @@ public class SistemaBancario {
                     break;
                 }
                 case 3: {
-                    System.out.println("Você escolheu Sacar.");
+                    sacar();
                     break;
                 }
                 case 4: {
-                    System.out.println("Você escolheu transferir.");
+                    trasnferencia();
                     break;
                 }
                 case 5: {
@@ -61,5 +61,13 @@ public class SistemaBancario {
 
     static void depositar(){
         System.out.println("Você escolheu depositar.");
+    }
+
+    static void sacar(){
+        System.out.println("Você escolheu Sacar.");
+    }
+
+    static void trasnferencia(){
+        System.out.println("Você escolheu transferir.");
     }
 }
